@@ -5,7 +5,7 @@ namespace Algoholic.Sorts
 {
     public abstract class BaseSort
     {
-        public virtual ICollection<int> Sort(ICollection<int> collection)
+        public virtual IEnumerable<int> Sort(IEnumerable<int> collection)
         {
             throw new NotImplementedException();
         }

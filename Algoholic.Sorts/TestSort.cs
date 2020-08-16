@@ -7,7 +7,7 @@ namespace Algoholic.Sorts
 {
     public class TestSort:BaseSort
     {
-        public override ICollection<int> Sort(ICollection<int> collection)
+        public override IEnumerable<int> Sort(IEnumerable<int> collection)
         {
             var orderedNumbers = from i in collection
                                  orderby i

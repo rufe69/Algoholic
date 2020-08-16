@@ -51,14 +51,14 @@ namespace Algologic.Sorts.Tests
             Assert.IsTrue(IsSorted(sortedCollection));
         }
 
-        protected bool IsSorted(ICollection<int> collection)
+        protected bool IsSorted(IEnumerable<int> collection)
         {
             var coll = collection.ToList();
 
             if (coll.Count < 2)
                 return true;
 
-            for (int i = 1; i < collection.Count; i++)
+            for (int i = 1; i < coll.Count; i++)
             {
                     if (coll[i] < coll[i - 1])
                         return false;

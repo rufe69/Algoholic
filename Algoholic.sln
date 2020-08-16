@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algoholic", "Algoholic\Algo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algoholic.Sorts", "Algoholic.Sorts\Algoholic.Sorts.csproj", "{EA8ACDAB-700F-4691-8A1B-0BFC221BF6C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algologic.Sorts.Tests", "Tests\Algologic.Tests.Sorts\Algologic.Sorts.Tests.csproj", "{8FD1E078-113B-423C-AA52-53CF24B44843}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algologic.Sorts.Tests", "Tests\Algologic.Sorts.Tests\Algologic.Sorts.Tests.csproj", "{8FD1E078-113B-423C-AA52-53CF24B44843}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F44691FA-9B4A-4A83-871E-5EB7A56C508A}"
 EndProject
